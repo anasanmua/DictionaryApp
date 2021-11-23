@@ -3,3 +3,10 @@
   color: aqua;
   text-align: center;
 }
+.githubLink {
+  color: aqua;
+}
+.githubLink:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
