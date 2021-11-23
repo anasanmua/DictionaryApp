@@ -2,5 +2,14 @@
   text-align: center;
 }
 .formBox {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
   outline-offset: 0px;
+  box-shadow: 0px;
+}
+.formBox:focus {
+  border-color: aqua;
+  outline: 0;
+
+  box-shadow: 0 0 0 0.2rem rgb(40 167 69 / 25%);
 }
