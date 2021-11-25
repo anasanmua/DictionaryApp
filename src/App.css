@@ -1,12 +1,13 @@
 .App {
   margin: 50px;
-  color: aqua;
-  text-align: center;
+  color: black;
+  text-align: left;
 }
 .githubLink {
-  color: aqua;
+  color: #0d6efd;
+  text-decoration: none;
 }
 .githubLink:hover {
   text-decoration: none;
-  color: #ffffff;
+  font-weight: bolder;
 }

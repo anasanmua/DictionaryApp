@@ -1,15 +1,27 @@
-.Dictionary {
-  text-align: center;
+.Dictionary section {
+  background-color: #f8f5f1;
+  border-radius: 6px;
+  margin: 20px 0;
+  padding: 30px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
 }
-.formBox {
-  border: 1px solid #ced4da;
+input {
+  width: 100%;
+  padding: 6px 4px;
   border-radius: 4px;
-  outline-offset: 0px;
-  box-shadow: 0px;
+  color: #333;
+  border: 1px solid #ddd;
 }
-.formBox:focus {
-  border-color: aqua;
-  outline: 0;
 
-  box-shadow: 0 0 0 0.2rem rgb(40 167 69 / 25%);
+.formBox:focus {
+  border: 0px;
+  border-color: #cdf0ea;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(205 240 234);
+}
+
+.hint {
+  margin-top: 5px;
+  font-size: 12px;
+  color: rgb(110, 109, 109);
 }

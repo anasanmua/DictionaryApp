@@ -1,0 +1,7 @@
+.Phonetic a {
+  text-decoration: none;
+}
+.Phonetic a:hover {
+  text-decoration: none;
+  font-weight: bolder;
+}

@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>Dictionary Project</h1>
-        <Dictionary />
+        <Dictionary defaultKeyword="wine" />
         <p>
           Project coded by Ana S.M.{" "}
           <a
