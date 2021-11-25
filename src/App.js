@@ -12,6 +12,8 @@ function App() {
           <a
             className="githubLink"
             href="https://github.com/anasanmua/DictionaryApp"
+            target="_blank"
+            rel="noreferrer"
           >
             open-source in Github
           </a>
