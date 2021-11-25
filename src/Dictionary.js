@@ -20,11 +20,11 @@ export default function Dictionary(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    search();
   }
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
-    search();
   }
   function load() {
     setLoaded(true);
