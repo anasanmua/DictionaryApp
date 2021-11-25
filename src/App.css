@@ -1,6 +1,6 @@
 .App {
-  margin: 50px;
-  color: black;
+  margin: 0 auto;
+  max-width: 60%;
   text-align: left;
 }
 .githubLink {
